@@ -1,2 +1,2 @@
-# Learn-JS-
+# Learn-JS
 Javascipt Course 
