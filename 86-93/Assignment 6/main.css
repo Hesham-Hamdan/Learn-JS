@@ -1,0 +1,65 @@
+form {
+    width: 250px;
+    margin: 50px auto;
+    height: 150px;
+    padding: 10px;
+}
+
+
+input, select {
+    display: block;
+    margin: 15px auto;
+    width: 100%;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #AAA;
+    background-color: #fcfcfc;
+}
+
+select.input,
+input[type="submit"] {
+    width: 110%;
+}
+
+input[type="submit"] {
+    background-color: #009180;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.results {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.results div,
+.results section {
+    text-align: center;
+    background-color: #fc4b01;
+    color: white;
+    border-radius: 5px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
