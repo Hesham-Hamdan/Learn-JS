@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main</title>
+  <style>
+    div {
+    margin: 30px 0 30px 20px;
+    font-weight: bold;
+    }
+    
+    input {
+    display: block;
+    margin-top: 15px;
+    height: 30px;
+    }   
+    
+    select {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    width: 170px;
+    }
+  </style>
+</head>
+
+
+
+
+<body>
+  <form action="post" class="container">
+    <div>- Username : <input type="text"></div>
+    <div>- Phone Number : <input type="number"></div>
+    <div>- Password : <input type="password"></div>
+    <div class="options">
+      <label for="sport">Sport :</label>
+      <select name="sport" id="sport">
+        <option value="football">Football</option>
+        <option value="handball">Handball</option>
+        <option value="volleyball">Volleyball</option>
+        <option value="basketball">Basketball</option>
+        <option value="baseball">Baseball</option>
+      </select>
+    </div>
+  </form>
+  <script src="main.js"></script>
+</body>
+</html>
